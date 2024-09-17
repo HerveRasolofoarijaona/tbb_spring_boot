@@ -1,0 +1,9 @@
+src/
+ └── main/
+     └── java/
+         └── com/example/
+             ├── controller/       # REST controllers
+             ├── service/          # Business logic services
+             ├── repository/       # Database interactions (JPA repositories)
+             ├── dto/              # Data Transfer Objects
+             └── model/            # Entities representing database tables

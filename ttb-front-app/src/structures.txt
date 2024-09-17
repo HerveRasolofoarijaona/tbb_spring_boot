@@ -1,0 +1,15 @@
+src/
+ ├── app/
+ │   ├── features/
+ │   │   ├── user/
+ │   │   │   ├── user-list/
+ │   │   │   ├── user-detail/
+ │   │   │   └── user.module.ts
+ │   │   ├── product/
+ │   │   │   └── product.module.ts
+ │   │   └── ...
+ │   ├── core/        # Core services and singleton classes (Auth, Interceptors, Guards)
+ │   ├── shared/      # Shared components, directives, and pipes
+ │   ├── services/    # General services
+ │   └── app.module.ts
+ └── assets/
